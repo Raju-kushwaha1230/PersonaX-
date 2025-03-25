@@ -3,7 +3,7 @@ import Image from 'next/image'
 const About = () => {
     return (
         <div className='min-h-[85vh]  container mx-auto flex flex-col items-center gap-10   '>
-            <div className='text-center'>
+            <div className='text-center w-[70%]'>
                 <h1 className='text-2xl font-bold text-green-800 my-3'>About Page</h1>
                 <p className='font-mono'>Welcome to the About Page. Here you can find information about our application and its purpose.</p>
                 <p className='font-mono'>PersonaX is a cutting-edge platform designed to streamline digital identity management. Whether you're a developer, freelancer, or professional, PersonaX helps you create, manage, and showcase your online persona with ease.</p>
