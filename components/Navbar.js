@@ -22,6 +22,7 @@ const Navbar = () => {
       <div className="logo text-2xl font-bold "><h2 className="text-4xl font-bold ">Persona<span className="text-green-500">&lt;X&gt; </span></h2></div>
       <ul>
         <Link href={"/"} className='p-3 font-bold text-xl pr-10'>Home </Link>
+<Link href={"/about"} className='p-3 font-bold text-xl pr-10'>About </Link>
         {session &&
           <>
             <button id="dropdownDelayButton" onClick={() => { setShowDropDown(!showDropDown) }} onBlur={() => {
