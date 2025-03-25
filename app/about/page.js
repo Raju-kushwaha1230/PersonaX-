@@ -6,7 +6,7 @@ const About = () => {
             <div className='text-center'>
                 <h1 className='text-2xl font-bold text-green-800 my-3'>About Page</h1>
                 <p className='font-mono'>Welcome to the About Page. Here you can find information about our application and its purpose.</p>
-                <p className='font-mono'>Our goal is to provide a simple and efficient URL shortening service for everyone.</p>
+                <p className='font-mono'>PersonaX is a cutting-edge platform designed to streamline digital identity management. Whether you're a developer, freelancer, or professional, PersonaX helps you create, manage, and showcase your online persona with ease.</p>
 
             </div>
             <div className='flex flex-col items-center gap-5'>
