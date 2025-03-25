@@ -1,7 +1,7 @@
  # 🚀 PersonaX  
 **A Next.js-powered futuristic user profile and social interaction platform**
 ## Live link
-![Live Link](https://persona-x-red.vercel.app/)
+- [Live](https://persona-x-red.vercel.app/) 
 ## 🔹 Overview  
 PersonaX is a **modern user profile management** platform built with **Next.js**. It allows users to **customize their profiles**, update their **cover and profile pictures**, and manage their **username and name** through a dynamic dashboard.  
 
