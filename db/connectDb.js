@@ -15,16 +15,17 @@
 //   export default connectDB;
 import mongoose from 'mongoose';
 
-const MONGO_URI = process.env.MONGODB_URI; // Use environment variable
+const MONGO_URI = process.env.MONGODB_URI; // Ensure this is set in your environment variables
 
 const connectDB = async () => {
   if (mongoose.connection.readyState >= 1) {
+    console.log("✅ Already connected to MongoDB");
     return;
   }
 
   try {
     await mongoose.connect(MONGO_URI, {
-      useUnifiedTopology: true, // This is optional but still useful
+      useUnifiedTopology: true, // Optional but helps with stability
     });
     console.log("✅ MongoDB Connected Successfully!");
   } catch (error) {
@@ -34,5 +35,6 @@ const connectDB = async () => {
 };
 
 export default connectDB;
+
 
 
