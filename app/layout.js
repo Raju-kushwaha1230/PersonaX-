@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Get Me a Chai -A fundraising platform for creators",
-  description: "fundraising platform for creators",
+  title: " PersonaX: A Next.js-powered futuristic user profile and social interaction platform",
+  description: "PersonaX is a **modern user profile management** platform built with **Next.js**. It allows users to **customize their profiles**, update their **cover and profile pictures**, and manage their **username and name** through a dynamic dashboard.",
 
 };
 
