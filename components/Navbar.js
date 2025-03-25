@@ -21,7 +21,7 @@ const Navbar = () => {
     <div className='flex justify-between items-center relative bg-blue-950  px-8 h-16 text-white'>
       <div className="logo text-2xl font-bold "><h2 className="text-4xl font-bold ">Persona<span className="text-green-500">&lt;X&gt; </span></h2></div>
       <ul>
-        <Link href={"http://localhost:3000/"} className='p-3 font-bold text-xl pr-10'>Home </Link>
+        <Link href={"/"} className='p-3 font-bold text-xl pr-10'>Home </Link>
         {session &&
           <>
             <button id="dropdownDelayButton" onClick={() => { setShowDropDown(!showDropDown) }} onBlur={() => {
@@ -55,7 +55,7 @@ const Navbar = () => {
 
 
         {!session &&
-          <Link href={"http://localhost:3000/login"}>  <button type="button" className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+          <Link href={"/login"}>  <button type="button" className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
             Login</button>
           </Link>
         }
