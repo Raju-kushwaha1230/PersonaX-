@@ -20,8 +20,8 @@ bg-cover ">
         </div>
       </div>
     
-      <div className="space-y-10 pb-10">
-        <h2 className="text-center text-2xl font-bold">Connect with Us</h2>
+      <div className="space-y-10 pb-10 pt-10">
+        <h2 className="text-center text-2xl font-bold ">Connect with Us</h2>
         <div className="flex justify-around items-center">
           <div className="flex flex-col justify-center items-center">
             <img width={200} src="mentorship.gif" alt="" />
