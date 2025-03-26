@@ -19,7 +19,7 @@ const page = () => {
                 <h2 className="font-bold text-3xl">Login to get Connected with fans</h2>
             </div>
             <div className="flex flex-col gap-2  justify-center bg-gray-100 w-1/2 items-center p-10">
-                <button className="flex items-center w-60  bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+                <button onClick={()=>{signIn("google")}} className="flex items-center w-60  bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
                     <svg
                         className="h-6 w-6 mr-2"
                         xmlns="http://www.w3.org/2000/svg"
