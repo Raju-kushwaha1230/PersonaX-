@@ -18,7 +18,7 @@ const Navbar = () => {
   // }
   return (
 
-    <div className='flex justify-between items-center relative bg-blue-950  px-8 h-16 text-white bg-[url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)] bg-no-repeat
+    <div className='flex justify-between items-center relative bg-blue-950  px-8 h-16 text-white 
 bg-cover '>
       <div className="logo text-2xl font-bold "><h2 className="text-4xl font-bold ">Persona<span className="text-green-500">&lt;X&gt; </span></h2></div>
       <ul>
