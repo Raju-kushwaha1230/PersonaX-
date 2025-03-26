@@ -32,7 +32,8 @@ function Dashboards() {
 
   const getData = async () => {
     let u = await fetchuser(session.user.name)
-    console.log(`session user is ${session.user}`)
+    console.log(`session user is `)
+    console.log(session.user)
     setform(u)
   }
 
