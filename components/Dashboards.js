@@ -24,7 +24,7 @@ function Dashboards() {
 
 
   const handleChange = (e) => {
-  setform({ ...u, profilePic: u.profilePic ? u.profilePic : session.user.image || "" });
+ setform({ ...form, [e.target.name]: e.target.value });
   }
 
 
@@ -35,7 +35,7 @@ function Dashboards() {
      
       console.log("Session user:", session.user);
   console.log("Profile image URL:", session.user.image);
-     setform({ ...u, profilePic: session.user.image || "" });
+  setform({ ...u, profilePic: u.profilePic ? u.profilePic : session.user.image || "" });
   }
 
 
