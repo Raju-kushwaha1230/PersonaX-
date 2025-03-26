@@ -56,13 +56,11 @@ const Username =   ({ params }) => {
         </div>
         <div className='container mx-auto flex justify-around items-center w-full mt-4 gap-2 pb-20 '>
           <div className="support bg-slate-800 w-1/2 pl-4 min-h-80  ">
-            <h2 className='text-2xl font-bold pb-3'>Supporters</h2>
-            <p>@raju kushwaha paid $20</p>
-            <p>@john paid $30</p>
-            <p>@biraj kushwaha paid $40</p>
-            <p>@raju kushwaha paid $20</p>
-            <p>@john paid $30</p>
-            <p>@biraj kushwaha paid $40</p>
+            <h2 className='text-2xl font-bold pb-3'>About</h2>
+            <p>{params.name}</p>
+            <p>{params.email}</p>
+            <p>@bio</p>
+           
           </div>
           <div className="payment w-1/2 bg-slate-800 min-h-80  flex flex-col items-center gap-2 ">
             <h2 className='font-bold text-2xl'>Make a payment</h2>
