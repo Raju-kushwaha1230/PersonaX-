@@ -64,15 +64,15 @@ bg-cover ">
             rows="3"
             placeholder="Suggest features, report bugs, or share feedback..."
             
-             }
+             
           />
           <button className="bg-blue-500 px-6 py-2 rounded-lg hover:bg-blue-600 transition">
             Submit
           </button>
-        
+              </form>
          
           </div>
-        )}
+        
       </section>
         </div>
 
