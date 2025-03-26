@@ -54,8 +54,8 @@ bg-cover ">
       </div>
      
       <div className="pt-4 pb-4">
-        <h2></h2>
-        <div>
+        
+        
         <section className="mt-16 p-6 bg-gray-800 rounded-lg shadow-lg">
         <h2 className="text-2xl font-semibold text-center mb-4">Share Your Updates</h2>
         <form   className="flex flex-col items-center space-y-4">
@@ -63,9 +63,7 @@ bg-cover ">
             className="w-full p-3 rounded-lg bg-gray-700 text-white outline-none"
             rows="3"
             placeholder="Suggest features, report bugs, or share feedback..."
-            
-             
-          />
+           />
           <button className="bg-blue-500 px-6 py-2 rounded-lg hover:bg-blue-600 transition">
             Submit
           </button>
@@ -76,8 +74,7 @@ bg-cover ">
       </section>
         </div>
 
-      </div>
-
+   
     </>
   );
 }
