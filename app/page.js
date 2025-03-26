@@ -7,11 +7,11 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <>
-      <div className="h-64 gap-3  flex flex-col justify-center items-center  bg-[url(https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)] bg-no-repeat
+      <div className="h-64 gap-3  flex flex-col justify-center items-center font-mono  bg-[url(https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)] bg-no-repeat
 bg-cover ">
         <h2 className="text-5xl font-bold ">Persona<span className="text-green-500">&lt;X&gt; </span></h2>
-        <p className="font-bold">Connect, Express, Evolve.</p>
-        <p>Your Digital Identity, Redefined</p>
+        <p className="font-bold text-2xl">Your Digital Identity, Simplified!.</p>
+        <p >Create, manage, and share your professional identity effortlessly.</p>
 
         <div>
           <Link href="/login"><button type="button" className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Get Started</button> </Link>
