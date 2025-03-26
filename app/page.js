@@ -20,10 +20,10 @@ bg-cover ">
         </div>
       </div>
     
-      <div className="space-y-10 pb-10 pt-10 font-mono">
+      <div className="space-y-10 pb-10 pt-10 p-3  font-mono">
         <h2 className="text-center text-2xl font-bold ">Connect with Us</h2>
-        <div className="flex justify-around items-center">
-          <div className="flex flex-col justify-center items-center">
+        <div className="flex justify-around items-center ">
+          <div className="flex flex-col justify-center items-center text-center">
             <img width={200} src="mentorship.gif" alt="" />
             <p className="font-bold">Fans want to help</p>
             <p>Empower others by sharing knowledge and expertise.
@@ -32,7 +32,7 @@ bg-cover ">
               <Link href="/"><button type="button" className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Start Helping</button> </Link>
 
           </div>
-          <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center text-center">
             <img width={200} src="rupee.gif" alt="" />
             <p className="font-bold">Fans want to contribute</p>
             <p>Showcase your skills and contribute to the community.
@@ -41,7 +41,7 @@ bg-cover ">
               <Link href="/"><button type="button" className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Contribute Now</button> </Link>
 
           </div>
-          <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center text-center">
             <img width={200} src="mentoring.gif" alt="" />
             <p className="font-bold">Fans want to collaborate</p>
             <p>Connect, team up, and build something amazing together.
