@@ -7,7 +7,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <>
-      <div className="h-64 gap-3  flex flex-col justify-center items-center  ">
+      <div className="h-64 gap-3  flex flex-col justify-center items-center  bg-[url(https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)]">
         <h2 className="text-5xl font-bold ">Persona<span className="text-green-500">&lt;X&gt; </span></h2>
         <p className="font-bold">Connect, Express, Evolve.</p>
         <p>Your Digital Identity, Redefined</p>
