@@ -32,10 +32,10 @@ function Dashboards() {
 
   const getData = async () => {
     let u = await fetchuser(session.user.name)
-    console.log(`session user is `)
-    console.log(session.user)
-    console.log(session.user.image)
-    setform(u)
+     
+      console.log("Session user:", session.user);
+  console.log("Profile image URL:", session.user.image);
+     setform({ ...u, profilePic: session.user.image || "" });
   }
 
 
