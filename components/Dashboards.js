@@ -34,6 +34,7 @@ function Dashboards() {
     let u = await fetchuser(session.user.name)
     console.log(`session user is `)
     console.log(session.user)
+    console.log(session.user.image)
     setform(u)
   }
 
