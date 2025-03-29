@@ -176,7 +176,7 @@ export default function PostList() {
               
               <img
              width={480}
-hight={400}
+hight={300}
                 src={post.media[0].fileUrl}
                 alt="Post Media"
                 className="   object-cover p-3   mt-2 rounded-md shadow-md"
