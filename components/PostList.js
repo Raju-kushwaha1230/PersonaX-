@@ -173,10 +173,10 @@ export default function PostList() {
             {/* Media (if any) */}
             {post.media.length > 0 && (
               <img
-             width={400}
+             width={450}
                 src={post.media[0].fileUrl}
                 alt="Post Media"
-                className="w-full   object-cover p-3  mt-2 rounded-md shadow-md"
+                className="   object-cover p-3  mt-2 rounded-md shadow-md"
               />
             )}
 
