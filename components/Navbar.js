@@ -103,7 +103,7 @@ const Navbar = () => {
 
         {/* Navbar Links (Desktop) */}
         <ul className="hidden md:flex space-x-6">
-          <li>
+          <li className="flex item-center gap-4 ">
             <Link href="/" className="text-xl font-bold">Home</Link>
           <Link href={"/about"} className='p-3 font-bold text-xl pr-10'>About </Link>
           </li>
