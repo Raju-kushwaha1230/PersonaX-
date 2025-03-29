@@ -102,7 +102,7 @@ const Navbar = () => {
         </div>
 
         {/* Navbar Links (Desktop) */}
-        <ul className="hidden md:flex justify-center item-center space-x-6">
+        <ul className="hidden md:flex flex justify-center item-center space-x-6">
           <li className="flex justify-center item-center gap-4 ">
             <Link href="/" className="text-xl font-bold">Home</Link>
           <Link href={"/about"} className=' font-bold text-xl '>About </Link>
