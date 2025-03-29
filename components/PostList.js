@@ -171,15 +171,17 @@ export default function PostList() {
             <p className="mt-3 text-lg">{post.caption}</p>
 
             {/* Media (if any) */}
+<div className="  flex flex-col items-center justify-center">
             {post.media.length > 0 && (
+              
               <img
              width={450}
                 src={post.media[0].fileUrl}
                 alt="Post Media"
-                className="   object-cover p-3  mt-2 rounded-md shadow-md"
+                className="   object-cover p-3   mt-2 rounded-md shadow-md"
               />
             )}
-
+                  </div>
             {/* Likes, Comments, Shares */}
             <div className="flex items-center justify-between mt-3 text-gray-400 text-sm">
               <p>❤️ {post.likes?.length || 0} Likes</p>
