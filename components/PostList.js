@@ -175,7 +175,7 @@ export default function PostList() {
             {post.media.length > 0 && (
               
               <img
-             width={400}
+             width={480}
 height={300}
                 src={post.media[0].fileUrl}
                 alt="Post Media"
