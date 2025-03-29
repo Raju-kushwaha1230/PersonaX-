@@ -148,7 +148,7 @@ export default function PostList() {
               <img
                 src={post.userId.profilePic}
                 alt={`${post.userId.name}'s profile`}
-                className="w-10 h-10 rounded-full"
+                className="w-10 h-10  rounded-full"
               />
               <div>
                 <h3 className="font-semibold text-lg">{post.userId.name}</h3>
@@ -175,7 +175,7 @@ export default function PostList() {
               <img
                 src={post.media[0].fileUrl}
                 alt="Post Media"
-                className="w-full max-h-[50vh] object-cover mt-2 rounded-md shadow-md"
+                className="w-full max-h-[80vh]   object-cover p-3  mt-2 rounded-md shadow-md"
               />
             )}
 
