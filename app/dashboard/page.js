@@ -19,10 +19,10 @@ const Dashboard = () => {
         <h3 className='text-xl text-blue-600 font-mono py-4'>Fill the given Details </h3>
       </div>
       <Dashboards/>
-      <div className='flex flex-col justify-center items-center'>
+      <div className='flex flex-col justify-center items-center mx-6'>
     <h2  className='text-2xl font-bold my-3 text-slate-700'>Note</h2>
-    <p className='text-xl text-blue-600 font-mono py-4'> plz add the link of your image which should be live </p> 
-    <p className='text-xl text-blue-600 font-mono py-4'> You can select image address from internet </p>
+    <p className='text-xl text-blue-600 font-mono py-4 text-center'> plz add the link of your image which should be live </p> 
+    <p className='text-xl text-blue-600 font-mono py-4 text-center'> You can select image address from internet </p>
     </div>
     </div>
   )
