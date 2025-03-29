@@ -50,7 +50,14 @@ export const authOption = NextAuth({
     },
     async session({ session, user, token }) {
       const dbUser = await User.findOne({ email: session.user.email });
-      session.user.name = dbUser.username;
+      
+      if (dbUser) {
+        session.user.name = dbUser.username;
+        session.user.id = dbUser._id.toString(); // ✅ Attach userId
+        session.user.username = dbUser.username; // Attach username
+
+
+      }
       return session;
     },
   },
